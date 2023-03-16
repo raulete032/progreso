@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5">
+                <p>PROGRESO AÑO</p>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div id="year" class="progress-bar bg-success" style="width: 0%"></div>
+        </div>
+            </div>
+            <div class="col-12 mt-5">
+                <P>PROGRESO MES</P>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div id="month" class="progress-bar bg-success" style="width: 0%"></div>
+        </div>
+            </div>
+            <div class="col-12 mt-5">
+                <p>PROGRESO SEMANA</p>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div id="week" class="progress-bar bg-success" style="width: 0%"></div>
+        </div>
+            </div>
+            <div class="col-12 mt-5">
+                <p>PROGRESO DÍA</p>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div id="day" class="progress-bar bg-success" style="width: 0%"></div>
+        </div>
+            </div>
+            <div class="col-12 mt-5">
+                <p style="display: inline;">PROGRESO JORNADA TRABAJO
+                    <div style="display: inline;">
+                        <label for="entrada">Entrada</label>
+                        <input type="time" name="horaEntrada" id="entrada">
+                        <label for="salida">Salida</label>
+                        <input type="time" name="horaSalida" id="salida">
+                    </div>
+                </p>
+
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuemin="0" aria-valuemax="100">
+                <div id="workingDay" class="progress-bar bg-success" style="width: 0%"></div>
+        </div>
+            </div>
+        </div>
+    
+    
+
+
+
+
+
+
+
+
+
+        
+    
+    
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
